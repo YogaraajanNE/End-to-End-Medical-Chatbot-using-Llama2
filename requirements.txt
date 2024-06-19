@@ -7,3 +7,6 @@ langchain_community
 flask
 pypdf
 pinecone_text
+-e .
+
+#-e . - When you run the pip install -r requirements.txt. If -e . is present then it will run setup.py and install setup.py. After that you can see Medical Chatbot.egg-info file (contains metadata) and   
